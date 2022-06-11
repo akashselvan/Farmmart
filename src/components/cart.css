@@ -1,0 +1,114 @@
+.cartItem {
+   
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    margin-left: 60px;
+  }
+  
+  .cartItem__image {
+    width: 350px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+  .cartItem__details {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--secondary-color);
+  }
+  
+  .details__title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .details__desc {
+    font-size: 0.8rem;
+  }
+  
+  .details__price {
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .cartItem__actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.6rem;
+  }
+  
+  .cartItem__qty {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cartItem__qty input {
+    padding: 10px;
+    margin-left: 0.4rem;
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
+    outline: none;
+  }
+  
+  .actions__deleteItemBtn {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease-in-out 0.7s;
+    outline: none;
+  }
+  
+  .actions__deleteItemBtn:hover {
+    transform: scale(1.2) rotate(360deg);
+    background-color: rgb(209, 15, 15);
+  }
+  
+  .actions__deleteItemBtn img {
+    width: 25px;
+    height: 25px;
+  }
+  #quantity_btn_decrease,
+#quantity_btn_increase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ef4f5f;
+  color: #e1e1e1;
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+}
+.details{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cart_total_group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .empty_cart_btn {
+    border: none;
+    background-color: #34495e;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #e1e1e1;
+  }
+.navbar123{
+    margin-bottom: 40px;
+}

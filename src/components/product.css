@@ -1,0 +1,41 @@
+img.small {
+    max-height: 8rem;
+  }
+  .card-flex-wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+    border-radius:80px;
+    box-shadow: 5px 5px 10px rgb(124, 230, 4);
+	display: flex;
+    margin-top: 40px;
+   margin-left: 80px;
+    
+	flex-direction: column;
+	width: 200px;
+
+	  background-color: #54e611;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    margin-right: 0;
+    padding: 1em;
+}
+.card-flex-image  {
+	opacity: 1;
+    width: 100px;
+    height: 100px;
+    margin-left: 33px;
+}
+.card-flex-button {
+	background-color: white;
+	border: 1px solid #333; 
+	padding: 0.5rem;
+	color: #333;
+	text-align: center;
+	text-decoration: none; 
+}
+.card-flex-button:hover {
+	color: #333;
+	text-decoration: none;
+}

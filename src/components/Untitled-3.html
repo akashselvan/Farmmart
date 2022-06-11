@@ -1,0 +1,26 @@
+<Row xs={1} md={ 4} className="g-4">
+  {users.map(user => ( 
+    
+  
+    <div key={user.id} className="content1">
+    <div    className="card-flex-wrapper">
+    <div className="card-flex-image" >
+      <img src={user.image} 
+            alt="img placeholder" />
+    </div>
+    <div className="card-flex-content">
+      <h5 className='crop'  >{user.crop}</h5>
+      <p >price Rs {user.price}</p>
+      
+   
+          
+   <button onClick={onAdd} className='addcart-btn'>ADD TO CART</button>
+          
+          
+    </div>
+  </div>
+  </div>
+    
+  ))}
+
+</Row>

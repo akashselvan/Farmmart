@@ -1,0 +1,66 @@
+.user12{
+    width: 100%;
+    
+}
+.navlink1{
+margin-left:1100px;
+    
+  
+    
+}
+.card{
+    margin-top:40px;
+    margin-left: 30px;
+}
+.image{
+    margin-top: 40px;
+}
+.navlink2{
+    margin-left:500px;
+    margin-top:70px;
+}
+.navbar123{
+    margin-right: 200px;
+    background-color: rgb(21, 197, 21);
+}
+.box1
+{
+    margin-top: 40px;
+    align-items: center;
+    margin-left: 400px;
+
+}
+
+.textfield{
+    margin-bottom: 50px;
+}
+.hr{
+    color: #ffffff;
+}
+.input123{
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.container{
+    margin-right: 40px;
+    
+}
+.third {
+    border-color: #d2e6f3;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 #ffffff  inset; 
+   border-radius:20%;
+   margin-left:1000px;
+    
+ 
+}
+  
+.third:hover {
+     
+      box-shadow: 0 0 10px 10px #3498db;
+ }
+ .log{
+     color:black;
+ }
+
+  

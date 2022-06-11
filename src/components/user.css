@@ -1,0 +1,41 @@
+.farm{
+  
+    margin-top:20px;
+    color:rgb(204, 132, 39);
+    background-color: rgb(255, 145, 0);
+    margin-right:100px;
+    
+}
+
+  
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px ;
+    border-radius: 0.2rem;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+    .image {
+      height: 8rem;
+      width: 100%;
+      object-fit: cover;
+      
+    }
+  
+    .title {
+      padding: 1rem;
+    }
+  
+    .description {
+      padding: 0 1rem;
+    }
+  .div{
+    margin-left: 175px;
+  }
+   
+    
+ 
